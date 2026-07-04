@@ -25,6 +25,10 @@ To address these challenges, this project consolidates HRDD data into an interac
  - Reduce manual reporting and enhance operational efficiency.
 
 # 2. Project Structure and Methodology
+This project applies the data analytics techniques and best practices developed throughout the Data and Analytics course.The project followed a structured analytics workflow consisting of data preparation, exploratory analysis, and dashboard development. 
+Python (Jupyter Notebook) was primarily used to perform data cleaning, transformation, integration, and Exploratory Data Analysis (EDA). This stage ensured that the datasets were validated, consolidated, and prepared according to the business rules defined by ABC.
+The processed dataset was then imported into Power BI, where an interactive dashboard was developed to visualize key performance indicators (KPIs), monitor audit compliance, identify high-risk supplier plants, and analyse Hypercare levels.
+
 This script is structured in 5 phases:
 1. Data Preparation
    - Import Python libraries, and ABC's datasets. Ensure the data has been loaded correctly and is ready for analysis.
