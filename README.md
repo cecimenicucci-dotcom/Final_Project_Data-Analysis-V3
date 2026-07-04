@@ -29,7 +29,7 @@ This project applies the data analytics techniques and best practices developed 
 Python (Jupyter Notebook) was primarily used to perform data cleaning, transformation, integration, and Exploratory Data Analysis (EDA). This stage ensured that the datasets were validated, consolidated, and prepared according to the business rules defined by ABC.
 The processed dataset was then imported into Power BI, where an interactive dashboard was developed to visualize key performance indicators (KPIs), monitor audit compliance, identify high-risk supplier plants, and analyse Hypercare levels.
 
-This script is structured in 5 phases:
+The overall project workflow consists in 5 phases:
 1. Data Preparation
    - Import Python libraries, and ABC's datasets. Ensure the data has been loaded correctly and is ready for analysis.
 2. Data cleaning and transformation
@@ -69,20 +69,20 @@ The analysis should apply the following criteria accross all Regions and Spend c
 # 3. Key Findings
 ![alt text](image.png)
 
-This analysis evaluated 3.394 supplier plants to identify High Risk Suppliers, assess the 2026 audit compliance target, and review remediation for Hypercare plants.
-Key findings include:
-464 plants (13.7%) were identified as High Risk.
-441 High Risk plants (95.0%) are audit compliant.
-23 High Risk plants (5.0%) require a new audit.
-21 plants (0.6%) are currently under Hypercare.
+This analysis evaluated **3.394 supplier plants** to identify High Risk Suppliers, assess the 2026 audit compliance target, and review remediation for Hypercare plants.
 
-The AMEA region contains the largest concentration of High Risk plants.
-Raw Materials remains below the client's 98% audit compliance target.
+**Key findings include:**
+ - 464 plants (13.7%) were identified as High Risk.
+ - 441 High Risk plants (95.0%) are audit compliant.
+ - 23 High Risk plants (5.0%) require a new audit.
+ - 21 plants (0.6%) are currently under Hypercare.
 
-63 High Risk plants have no assigned Region and should be investigated.
-Overall, the supplier base demonstrates a high level of audit compliance, indicating a postive position to achieve the 2026 target of 98%. 
-It is noticed though that unresolved regional ownership and outstanding audit requirements remain key areas requiring business attention.
-Although only a small proportion of plants are classified as Hypercare, these sites should continue to be closely monitored. Hypercare is not associated with a compliance target; instead, it supports the management of unresolved non-conformities and helps ensure remediation actions are completed, contributing to the long-term effectiveness of the compliance programme.
+ - The AMEA region contains the largest concentration of High Risk plants.
+ - Raw Materials and Packaging Materials remain below the client's 98% audit compliance target.
+
+ - 63 High Risk plants have no assigned Region and should be investigated.
+
+Overall, the supplier base demonstrates a high level of audit compliance, indicating a postive position to achieve the 2026 target of 98%. It is noticed though that unresolved regional ownership and outstanding audit requirements remain key areas requiring business attention. Although only a small proportion of plants are classified as Hypercare, these sites should continue to be closely monitored. Hypercare is not associated with a compliance target; instead, it supports the management of unresolved non-conformities and helps ensure remediation actions are completed, contributing to the long-term effectiveness of the compliance programme.
 
 # Conclusions
 This project successfully integrated multiple HRDD datasets to create a consolidated view of supplier audit compliance and Hypercare status. By applying ABC's business rules, the analysis identified the population of High Risk supplier plants, assessed audit compliance, and highlighted suppliers requiring further attention.
